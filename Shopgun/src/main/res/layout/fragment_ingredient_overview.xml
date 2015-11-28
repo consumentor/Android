@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include layout="@layout/overview_header"/>
+
+        <FrameLayout
+            android:id="@+id/topWeightedAdvicesFragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                style="@style/BackgroundPlate"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="@string/more_about"
+                    style="@style/header"/>
+
+                <ImageView
+                    android:src="@drawable/delimiter"
+                    style="@style/listItemDelimiter"/>
+
+                <TextView
+                    android:text="@string/wikipedia"
+                    android:onClick="onShowWikipedia"
+                    style="@style/TextButton.DarkerBlue"
+                    android:drawableLeft="@drawable/ic_wikipedia_globe"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

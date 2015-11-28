@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/brandName"
+        style="@style/BackgroundPlate.Logotype"/>
+
+    <ImageView
+        android:id="@+id/brandLogotype"
+        style="@style/BackgroundPlate.Logotype"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/BackgroundPlate">
+
+        <TextView
+            android:text="@string/contact"
+            style="@style/header"/>
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/addressHeader"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_address"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/brandAddress"
+                android:padding="8dp"
+                android:textSize="16dp"
+                android:layout_toRightOf="@id/addressHeader"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp">
+
+            <ImageView
+                    android:id="@+id/phoneHeader"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_phone"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/brandPhone"
+                android:textSize="16dp"
+                android:layout_toRightOf="@id/phoneHeader"
+                android:layout_centerVertical="true"
+                android:padding="8dp"
+                android:autoLink="phone"
+                />
+
+            </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/emailHeader"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_mail"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/brandEmail"
+                android:autoLink="email"
+                android:layout_centerVertical="true"
+                android:padding="8dp"
+                android:textSize="16dp"
+                android:layout_toRightOf="@id/emailHeader"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/BackgroundPlate">
+
+        <TextView
+            android:text="@string/owned_by"
+            style="@style/header"/>
+
+        <LinearLayout
+            android:id="@+id/ownerButton"
+            android:onClick="onStartCompanyActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/selector_button">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:padding="8dp"
+                android:src="@drawable/ic_company"/>
+
+            <TextView
+                android:id="@+id/companyName"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Company"
+                android:textSize="18sp"
+                android:textColor="@color/shopgun_blue_darker"/>
+
+            <ImageView
+                android:id="@+id/companyLogotype"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:padding="16dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_arrow_right"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <View style="@style/bottomSpacing"/>
+
+</LinearLayout>
+
+</ScrollView><!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/layout/fragment_brand_facts.xml -->

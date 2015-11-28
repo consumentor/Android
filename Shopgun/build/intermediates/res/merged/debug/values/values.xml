@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/viewpagerindicator/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_show_only_part_of_inactive_titles">false</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_debug">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/facebook/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="com_facebook_blue">#3B5998</color>
+    <color name="com_facebook_loginview_text_color">#FFFFFF</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#000000</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#FFFFFF</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#A6AED7</color>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/common_colors.xml -->
+    <eat-comment/>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/viewpagerindicator/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="shopgun_blue">#296788</color>
+    <color name="shopgun_blue_darker">#0B3D57</color>
+    <color name="shopgun_blue_lighter">#5DA0C3</color>
+    <color name="shopgun_blue_lightest">#78A9C3</color>
+    <color name="shopgun_gray">#999999</color>
+    <color name="shopgun_gray_darker">#666666</color>
+    <color name="shopgun_gray_lighter">#CCCCCC</color>
+    <color name="shopgun_green">#61BA31</color>
+    <color name="shopgun_green_darker">#357910</color>
+    <color name="shopgun_green_lighter">#8DDD63</color>
+    <color name="shopgun_green_lightest">#A2DD83</color>
+    <color name="shopgun_green_super_light">#D0EEC1</color>
+    <color name="shopgun_green_transparent">#dd61BA31</color>
+    <color name="shopgun_red">#C63453</color>
+    <color name="shopgun_red_darker">#811129</color>
+    <color name="shopgun_red_lighter">#E26580</color>
+    <color name="shopgun_red_lightest">#E2879A</color>
+    <color name="shopgun_yellow">#FFDE00</color>
+    <color name="shopgun_yellow_darker">#DFB801</color>
+    <color name="shopgun_yellow_lighter">#FFEE78</color>
+    <color name="shopgun_yellow_lightest">#FFF5AE</color>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/viewpagerindicator/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_colors.xml -->
+    <eat-comment/>
+    <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="wallet_bright_foreground_holo_light">#ff000000</color>
+    <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="wallet_dim_foreground_holo_dark">#bebebe</color>
+    <color name="wallet_dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="wallet_dim_foreground_inverse_holo_dark">#323232</color>
+    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="wallet_highlighted_text_holo_light">#6633b5e5</color>
+    <color name="wallet_hint_foreground_holo_dark">#808080</color>
+    <color name="wallet_hint_foreground_holo_light">#808080</color>
+    <color name="wallet_holo_blue_light">#ff33b5e5</color>
+    <color name="wallet_link_text_light">#0000ee</color>
+    <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr format="boolean" name="showOnlyPartOfInactiveTitles"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <declare-styleable name="WalletFragmentOptions"><attr format="enum" name="appTheme"><enum name="holo_dark" value="0"/><enum name="holo_light" value="1"/></attr><attr format="enum" name="environment"><enum name="production" value="1"/><enum name="sandbox" value="0"/><enum name="strict_sandbox" value="2"/></attr><attr format="reference" name="fragmentStyle"/><attr format="enum" name="fragmentMode"><enum name="buyButton" value="1"/><enum name="selectionDetails" value="2"/></attr></declare-styleable>
+    <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="dimension" name="buyButtonWidth"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="enum" name="buyButtonText"><enum name="buy_with_google" value="1"/><enum name="buy_now" value="2"/><enum name="book_now" value="3"/></attr><attr format="enum" name="buyButtonAppearance"><enum name="classic" value="1"/><enum name="grayscale" value="2"/><enum name="monochrome" value="3"/></attr><attr format="reference" name="maskedWalletDetailsTextAppearance"/><attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsBackground"/><attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsButtonBackground"/><attr format="color" name="maskedWalletDetailsLogoTextColor"/><attr format="enum" name="maskedWalletDetailsLogoImageType"><enum name="classic" value="1"/><enum name="monochrome" value="2"/></attr></declare-styleable>
+    <declare-styleable name="com_facebook_friend_picker_fragment"><attr format="boolean" name="multi_select"/></declare-styleable>
+    <declare-styleable name="com_facebook_login_view"><attr format="boolean" name="confirm_logout"/><attr format="boolean" name="fetch_user_info"/><attr format="string" name="login_text"/><attr format="string" name="logout_text"/></declare-styleable>
+    <declare-styleable name="com_facebook_picker_fragment"><attr format="boolean" name="show_pictures"/><attr format="string" name="extra_fields"/><attr format="boolean" name="show_title_bar"/><attr format="string" name="title_text"/><attr format="string" name="done_button_text"/><attr format="reference" name="title_bar_background"/><attr format="reference" name="done_button_background"/></declare-styleable>
+    <declare-styleable name="com_facebook_place_picker_fragment"><attr format="integer" name="radius_in_meters"/><attr format="integer" name="results_limit"/><attr format="string" name="search_text"/><attr format="boolean" name="show_search_box"/></declare-styleable>
+    <declare-styleable name="com_facebook_profile_picture_view"><attr name="preset_size"><enum name="small" value="-2"/><enum name="normal" value="-3"/><enum name="large" value="-4"/></attr><attr format="boolean" name="is_cropped"/></declare-styleable>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="circleDiagramFontSize">20sp</dimen>
+    <dimen name="circleDiagramSize">70dp</dimen>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/facebook/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_loginview_height">44dp</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">0dp</dimen>
+    <dimen name="com_facebook_loginview_padding_left">42dp</dimen>
+    <dimen name="com_facebook_loginview_padding_right">0dp</dimen>
+    <dimen name="com_facebook_loginview_padding_top">0dp</dimen>
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_loginview_width">205dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64dp</dimen>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/viewpagerindicator/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <integer name="ga_dispatchPeriod">10</integer>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/version.xml -->
+    <eat-comment/>
+    <integer name="google_play_services_version">6171000</integer>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about">Om</string>
+    <string name="about_product">Om produkten</string>
+    <string name="about_the_brand">Om varumärket</string>
+    <string name="about_the_company">Om företaget</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="accept">Accept</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_advisors">Rådgivare</string>
+    <string name="action_batch_scan">Skanna flera produkter</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
+    <string name="action_forgot_password">Recover lost password</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_scan">Scanna streckkod</string>
+    <string name="action_search">Fritextsökning</string>
+    <string name="action_settings">Settings</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="adviceRatingQuestion">Jag anser att informationen i detta köpråd är</string>
+    <string name="advice_about">Köprådet gäller</string>
+    <string name="advisor">Rådgivare</string>
+    <string name="advisor_description_missing">Rådgivarebeskrivning saknas.</string>
+    <string name="advisor_list">Våra rådgivare</string>
+    <string name="advisors_homepage">Besök rådgivarens hemsida</string>
+    <string name="allabolag_info">Läs mer om företaget på\nallabolag.se</string>
+    <string name="app_name">Shopgun</string>
+    <string name="brand_homepage">Läs mer på varumärkets hemsida</string>
+    <string name="brand_info_disclaimer">Utökad varumärkesinformation tillförd av ägaren.</string>
+    <string name="brand_member_info">Läs mer om varumärket</string>
+    <string name="brand_no_member">Företaget har ännu inte tillfört utökad information om detta varumärke. Här hittar du annars:</string>
+    <string name="brand_products">Varumärkets produkter</string>
+    <string name="brand_video_header">Videopresentation</string>
+    <string name="certificationMark_description_missing">Beskrivning av certifieringsmärkningen saknas.</string>
+    <string name="certificationMark_header">Certifieringar:</string>
+    <string name="certificationmark_homepage">Läs mer på hemsidan</string>
+    <string name="circle_diagram_header">VIKTADE KÖPRÅD</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/facebook/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log In</string>
+    <string name="com_facebook_loginview_log_out_action">Log Out</string>
+    <string name="com_facebook_loginview_log_out_button">Log Out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log In…</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged In</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not Logged In</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/common_strings.xml -->
+    <eat-comment/>
+    <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text">This app won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">This app won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_installation_title">An application requires installation of Google Play services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">This app won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="company_address_header">Kontakt</string>
+    <string name="company_description_header">Om företaget</string>
+    <string name="company_description_missing">Företagsbeskrivning saknas.</string>
+    <string name="company_homepage">Läs mer på företagets hemsida</string>
+    <string name="company_info_disclaimer">Utökad information tillförd av företaget.</string>
+    <string name="company_member_info">Läs mer om företaget</string>
+    <string name="company_no_member">Företaget har ännu inte tillfört utökad företagsinformation. Här hittar du annars:</string>
+    <string name="company_video_header">Videopresentation</string>
+    <string name="compare_products">Jämför produkterna</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <string name="consumentor.shopgun.aidroid.view.AdviceActivity">AdviceActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.AdvisorActivity">AdvisorActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.BatchScanActivity">BatchScanActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.BrandActivity">BrandActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.CertificationMarkActivity">CertificationMarkActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.CompanyActivity">CompanyActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.IngredientActivity">IngredientActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.LoginActivity">LoginActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.MainActivity">Home</string>
+    <string name="consumentor.shopgun.aidroid.view.ProductActivity">ProductActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.ProductComparisonActivity">ProductComparisonActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.ScanActivity">ScanActivity</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="contact">Kontakt</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="csr_description">Det här gör vi bra och är stolta över:</string>
+    <string name="csr_header">Företagets CSR arbete</string>
+    <string name="csr_no_member">Företaget har ännu inte tillfört CSR information.</string>
+    <string name="dashboardFreeSearchText">Eller gör en fritextsökning</string>
+    <string name="dashboardText">Börja med att skanna en eller flera produkter</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="decline">Decline</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="did_you_know">Visste du att...</string>
+    <string name="done">Färdig!</string>
+    <string name="dont_show_again">Don\'t show this again</string>
+    <string name="drawer_close">Close options panes</string>
+    <string name="drawer_open">Open options panel</string>
+    <string name="environment">Miljö</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="ethics">Etik</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <string name="ga_appName">Shopgun Android 2.0</string>
+    <string name="ga_trackingId">UA-37059414-1</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="gtin_header">GTIN:</string>
+    <string name="health">Hälsa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ingredient_info_missing">Ingrediensinformation saknas/är inte tillämpligt på denna produkt.</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
+    <string name="login_progress_signing_in">Signing in…</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="manualInputGhost">Sök</string>
+    <string name="more_about">MER INFORMATION</string>
+    <string name="more_about_producer">Läs mer om producenten</string>
+    <string name="more_about_product">Besök produktens hemsida</string>
+    <string name="more_facts">Mera fakta</string>
+    <string name="nav_drawer_about">Om Shopgun</string>
+    <string name="nav_drawer_certificationmark">Märkningsguide</string>
+    <string name="nav_drawer_companies">Företag</string>
+    <string name="nav_drawer_faq">FAQ</string>
+    <string name="nav_drawer_feedback"><![CDATA[Feedback & Frågor]]></string>
+    <string name="nav_drawer_mentors">Rådgivare</string>
+    <string name="nav_drawer_partners">Partners</string>
+    <string name="nav_drawer_sponsors">Sponsorer</string>
+    <string name="nav_drawer_vision">Vision</string>
+    <string name="no_advices">Vi har ännu inga köpråd att visa.</string>
+    <string name="no_colored_advices">Det finns inga färgade köpråd</string>
+    <string name="only_white_advices">Det finns inga färgsatta köpråd. Däremot så finns det vita köpråd att läsa :)</string>
+    <string name="origin_header">Ursprung:</string>
+    <string name="owned_by">Ägs av</string>
+    <string name="owner_header">Ägare</string>
+    <string name="product">Produkt</string>
+    <string name="productInfoMissing">Företaget %s delar ännu inte all sin produktfakta med Shopgun. Vill du veta mer om produkten så tipsa dem gärna om möjligheten!</string>
+    <string name="productNotFound">Produkten hittades ej!</string>
+    <string name="productNotFoundInfo">Leverantören delar ännu inte sin produktfakta med Shopgun. Vi jobbar kontinuerligt för att få in fler produkter i vår databas.</string>
+    <string name="product_brand_header">Varumärke</string>
+    <string name="product_certification_header">Certifieringar</string>
+    <string name="product_description_header">Om produkten</string>
+    <string name="product_description_missing">Produktbeskrivning saknas.</string>
+    <string name="product_info_disclaimer">Utökad produktinformation tillförd av producenten.</string>
+    <string name="product_info_missing">Produktinfo saknas!</string>
+    <string name="product_ingredients_header">Ingredienser</string>
+    <string name="product_ingredients_header_colon">Ingredienser:</string>
+    <string name="product_lacks_certifications">Produkten saknar certifieringar</string>
+    <string name="product_no_member">Företaget har ännu inte tillfört utökad information om denna produkt. Här hittar du annars:</string>
+    <string name="product_no_member_extended">• Videopresentationer\n• Direktlänkar till hemsidor\n• CSR-fakta med mera...</string>
+    <string name="product_nutrition_header">Näringsvärde</string>
+    <string name="product_origin_header">Ursprungsland</string>
+    <string name="product_producer_header">Producent</string>
+    <string name="product_video_header">Video från producenten</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="scan_multiple">Scanna flera produkter</string>
+    <string name="show_advices">Visa alla köpråd</string>
+    <string name="show_certified_alternatives">Produkten saknar certifieringar\nVisa certifierade alternativ</string>
+    <string name="show_product_facts">Visa produktens faktasida</string>
+    <string name="sign_in_google">Logga in med Google</string>
+    <string name="skip">Skip</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
+    <string name="store_picture_title">Save image</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="table_of_content">Innehållsförteckning</string>
+    <string name="table_of_content_missing">Ingrediensinformation saknas</string>
+    <string name="title_activity_advice">Köpråd</string>
+    <string name="title_activity_advisor">Rådgivare</string>
+    <string name="title_activity_batch_scan">Skanna produkter</string>
+    <string name="title_activity_brand">Varumärke</string>
+    <string name="title_activity_certification_mark">Certifiering</string>
+    <string name="title_activity_company">Företag</string>
+    <string name="title_activity_ingredient">Ingrediens</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_product">Produkt</string>
+    <string name="title_activity_product_comparison">Jämför produkter</string>
+    <string name="title_activity_product_view">Product</string>
+    <string name="title_advice_list">Köpråd</string>
+    <string name="title_brand_facts">Varumärkesfakta</string>
+    <string name="title_brand_info">Mer om varumärket</string>
+    <string name="title_company_brands">Företagets varumärken</string>
+    <string name="title_company_csr">Fem snabba CSR</string>
+    <string name="title_company_facts">Företagsfakta</string>
+    <string name="title_company_info">Mer om företaget</string>
+    <string name="title_ingredient_info">Wikipedia</string>
+    <string name="title_overview">Överblick</string>
+    <string name="title_product_facts">Produktfakta</string>
+    <string name="title_product_info">Mer om produkten</string>
+    <string name="title_product_list_certified_alternatives">Certifierade alternativ</string>
+    <string name="top_advices_header">TOPPRANKADE KÖPRÅD</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_strings.xml -->
+    <eat-comment/>
+    <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="wikipedia">Wikipedia</string>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="vpiCirclePageIndicatorStyle">@style/myCirclePageIndicator</item>
+        <item name="vpiTitlePageIndicatorStyle">@style/myTitlePageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/myTabPageIndicator</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:windowBackground">@drawable/barcode_background_gray</item>
+        <item name="android:selectableItemBackground">@null</item>
+    </style>
+    <style name="BackgroundPlate">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/background_plate</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+    <style name="BackgroundPlate.Clickable">
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/background_plate_clickable</item>
+    </style>
+    <style name="BackgroundPlate.Clickable.Info">
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:drawableLeft">@drawable/ic_info_blue</item>
+        <item name="android:drawableRight">@drawable/ic_arrow_right</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/shopgun_blue_darker</item>
+    </style>
+    <style name="BackgroundPlate.InfoText" parent="BackgroundPlate">
+        <item name="android:textColor">@color/shopgun_green_darker</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">64dp</item>
+    </style>
+    <style name="BackgroundPlate.Logotype">
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/shopgun_green_darker</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="BackgroundPlate.NoBottomLine">
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <style name="BackgroundPlate.TextField">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="IndeterminateProgress" parent="@android:style/Widget.ProgressBar">
+
+    </style>
+    <style name="InfoText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/shopgun_green_darker</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">64dp</item>
+    </style>
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:titleTextStyle">@style/MyTitleTextStyle</item>
+        <item name="android:subtitleTextStyle">@style/MySubTitleTextStyle</item>
+        <item name="android:indeterminateProgressStyle">@android:style/Widget.ProgressBar.Small</item>
+    </style>
+    <style name="MySubTitleTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowColor">@color/shopgun_green_darker</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+    </style>
+    <style name="MyTitleTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowColor">@color/shopgun_green_darker</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+    </style>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/viewpagerindicator/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="TextButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:clickable">true</item>
+        <item name="android:drawableRight">@drawable/ic_arrow_right</item>
+    </style>
+    <style name="TextButton.DarkerBlue">
+        <item name="android:textColor">@color/shopgun_blue_darker</item>
+    </style>
+    <style name="TextButton.LighterBlue">
+        <item name="android:textColor">@color/shopgun_blue_lighter</item>
+    </style>
+    <style name="TextButton.WithBottomLine">
+        <item name="android:background">@drawable/selector_button_with_bottom_line</item>
+    </style>
+    <style name="TextButton.WithBottomLine.DarkerBlue">
+        <item name="android:textColor">@color/shopgun_blue_darker</item>
+    </style>
+    <style name="TextButton.WithBottomLine.LighterBlue">
+        <item name="android:textColor">@color/shopgun_blue_lighter</item>
+    </style>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_iap_style.xml -->
+    <eat-comment/>
+    <style name="Theme.IAPTheme" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/viewpagerindicator/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_styles.xml -->
+    <eat-comment/>
+    <style name="WalletFragmentDefaultButtonTextAppearance">
+        <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_light</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_light</item>
+        <item name="android:textColorLink">@color/wallet_link_text_light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance" parent="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textColor">@color/wallet_secondary_text_holo_dark</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_dark</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_dark</item>
+        <item name="android:textColorLink">@color/wallet_holo_blue_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WalletFragmentDefaultStyle">
+        <item name="buyButtonHeight">48dp</item>
+        <item name="buyButtonWidth">match_parent</item>
+        <item name="buyButtonText">buy_with_google</item>
+        <item name="buyButtonAppearance">classic</item>
+        <item name="maskedWalletDetailsTextAppearance">@style/WalletFragmentDefaultDetailsTextAppearance</item>
+        <item name="maskedWalletDetailsHeaderTextAppearance">@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
+        <item name="maskedWalletDetailsBackground">@color/wallet_bright_foreground_holo_light</item>
+        <item name="maskedWalletDetailsButtonBackground">@android:drawable/btn_default</item>
+        <item name="maskedWalletDetailsButtonTextAppearance">@style/WalletFragmentDefaultButtonTextAppearance</item>
+        <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
+        <item name="maskedWalletDetailsLogoImageType">classic</item>
+    </style>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/viewpagerindicator/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Widget">
+    </style>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="adviceTag">
+        <item name="android:layout_width">52dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/shopgun_green</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">4dp</item>
+    </style>
+    <style name="barcodeBackgroundGray">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/shopgun_gray_lighter</item>
+        <item name="android:src">@drawable/bg_ean_overlay</item>
+    </style>
+    <style name="bottomSpacing">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+
+    </style>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/facebook/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="com_facebook_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:width">@dimen/com_facebook_loginview_width</item>
+        <item name="android:height">@dimen/com_facebook_loginview_height</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_blue</item>
+        <item name="android:textColor">@color/com_facebook_loginview_text_color</item>
+        <item name="android:textSize">@dimen/com_facebook_loginview_text_size</item>
+        <item name="android:paddingLeft">@dimen/com_facebook_loginview_padding_left</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:width">205dp</item>
+        <item name="android:height">44dp</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_silver</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#4B5164</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/shopgun_green</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8dp</item>
+        <!--<item name="android:shadowColor">@color/shopgun_green_darker</item>-->
+        <!--<item name="android:shadowRadius">0.5</item>-->
+        <!--<item name="android:shadowDx">0.5</item>-->
+        <!--<item name="android:shadowDy">0.5</item>-->
+        <item name="android:background">@drawable/header_background</item>
+    </style>
+    <style name="headerField">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="horizontalDelimiter">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/shopgun_gray_lighter</item>
+    </style>
+    <style name="horizontalDelimiter.Green">
+        <item name="android:background">@color/shopgun_green</item>
+    </style>
+    <style name="horizontalDelimiter.Red">
+        <item name="android:background">@color/shopgun_red</item>
+    </style>
+    <style name="horizontalDelimiter.Yellow">
+        <item name="android:background">@color/shopgun_yellow_darker</item>
+    </style>
+    <style name="listItemDelimiter">
+        <item name="android:src">@drawable/delimiter</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+    <style name="myAppTheme" parent="AppTheme">
+
+        <!-- If you want to implement your custom style of CirclePageIndicator, do it like so: -->
+
+        <!-- Put whatever other styles you want to define in your custom theme -->
+    </style>
+    <style name="myCirclePageIndicator" parent="Widget">
+        <item name="fillColor">@android:color/darker_gray</item>
+        <item name="strokeColor">@android:color/black</item>
+        <!--<item name="strokeWidth">1dp</item>-->
+        <!--<item name="pageColor">#e7e8</item>-->
+        <item name="radius">10dp</item>
+    </style>
+    <style name="myTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/shopgun_green</item>
+        <item name="android:divider">@drawable/drawer_shadow</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:minLines">2</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+    </style>
+    <style name="myTitlePageIndicator" parent="Widget">
+        <item name="selectedColor">@android:color/white</item>
+        <item name="android:textColor">@color/shopgun_gray_lighter</item>
+        <item name="android:background">@color/shopgun_green_transparent</item>
+        <item name="android:shadowColor">@android:color/holo_green_dark</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="linePosition">top</item>
+        <item name="showOnlyPartOfInactiveTitles">true</item>
+        <item name="footerColor">@color/shopgun_gray</item>
+        <item name="footerIndicatorStyle">triangle</item>
+    </style>
+    <style name="semaphoreIndicator">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <!--<item name="android:layout_marginTop">1dp</item>-->
+        <!--<item name="android:layout_marginBottom">1dp</item>-->
+    </style>
+    <style name="textField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">4dp</item>
+    </style>
+    <style name="textOnWhiteBackground">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="verticalDelimiter">
+        <item name="android:src">@drawable/delimiter</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+</resources>

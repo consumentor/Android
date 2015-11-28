@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/companyName"
+                style="@style/BackgroundPlate.Logotype"/>
+
+            <ImageView
+                android:id="@+id/companyLogotype"
+                style="@style/BackgroundPlate.Logotype"/>
+
+            <TextView
+                android:id="@+id/description"
+                style="@style/BackgroundPlate.TextField"/>
+
+            <TextView
+                android:id="@+id/companyHomepageButton"
+                android:text="@string/company_homepage"
+                style="@style/BackgroundPlate.Clickable.Info"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                style="@style/BackgroundPlate">
+
+                <WebView
+                    android:id="@+id/companyVideo"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/companyInfoDisclaimer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/company_info_disclaimer"
+                />
+
+            <LinearLayout
+                style="@style/bottomSpacing"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/companyNoMemberInfo"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            style="@style/BackgroundPlate"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:text="@string/company_no_member"
+                style="@style/InfoText"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/shopgun_green_darker"
+                android:text="@string/product_no_member_extended"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+<!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/layout/fragment_company_info.xml -->

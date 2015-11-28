@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="56dp"
+     android:layout_width="match_parent"
+    android:layout_marginTop="8dp"
+
+     android:background="@drawable/selector_button">
+
+
+
+
+    <ImageView
+        android:id="@+id/itemTypeImage"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_width="28dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitEnd"
+        android:paddingBottom="8dp"
+        android:src="@drawable/ic_ingredient"
+        android:paddingRight="4dp"/>
+
+    <TextView
+        android:id="@+id/separatorText"
+        android:text="Test separator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/itemTypeImage"
+        android:paddingBottom="8dp"
+        android:textStyle="bold"
+        android:textColor="@color/shopgun_green"/>
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        style="@style/horizontalDelimiter.Green"/>
+
+</RelativeLayout><!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/layout/advice_list_separator.xml -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/errorInfo"
+        style="@style/BackgroundPlate"
+        android:text="@string/productNotFoundInfo"
+        android:textStyle="bold"
+        android:textColor="@color/shopgun_green_darker"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="8dp"
+        />
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <com.viewpagerindicator.TitlePageIndicator
+            android:id="@+id/pagerIndicator"
+            style="@style/myTitlePageIndicator"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

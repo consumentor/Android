@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/ic_logotype"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/dashboardScanText"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logo"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboardText"/>
+
+
+    <ImageButton
+        android:id="@+id/barcodeScanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/dashboardScanText"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:src="@drawable/selector_barcode_scan_button" />
+
+    <TextView
+        android:id="@+id/dashboardFreeSearchText"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/barcodeScanButton"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboardFreeSearchText"/>
+
+    <Button
+        android:id="@+id/gtinInputButton"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="46dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="left|center"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/freetext_search_button_background"
+        android:textStyle="italic"
+        android:text="@string/action_search"
+        android:textColor="@color/shopgun_green_super_light"
+        android:paddingTop="10dp"
+        android:paddingLeft="32dp"
+        android:drawableLeft="@drawable/ic_search_symbol"
+        android:drawablePadding="8dp"
+        />
+
+    <!--<TextView-->
+            <!--android:id="@+id/tip_header"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_above="@+id/tip"-->
+            <!--android:layout_alignLeft="@+id/tip"-->
+            <!--android:text="@string/tip"-->
+            <!--android:textStyle="bold"-->
+            <!--android:paddingLeft="10dp"-->
+
+            <!--android:shadowColor="#fff"-->
+            <!--android:shadowRadius="1.0"-->
+            <!--android:shadowDy="3.0" />-->
+
+    <TextView
+        android:visibility="gone"
+            android:id="@+id/tip"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/gtinInputButton"
+            android:layout_alignLeft="@+id/logo"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:shadowColor="#fff"
+            android:shadowRadius="1.0"
+            android:shadowDy="2.0" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@id/gtinInputButton"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:layout_alignParentRight="true"
+        >
+
+        <RadioButton android:id="@+id/radio_debug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Development"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/radio_production"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Production"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+
+</RelativeLayout>

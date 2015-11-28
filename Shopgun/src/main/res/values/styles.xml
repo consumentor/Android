@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="vpiCirclePageIndicatorStyle">@style/myCirclePageIndicator</item>
+        <item name="vpiTitlePageIndicatorStyle">@style/myTitlePageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/myTabPageIndicator</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:windowBackground">@drawable/barcode_background_gray</item>
+        <item name="android:selectableItemBackground">@null</item>
+    </style>
+
+    <style name="MyTitleTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowColor">@color/shopgun_green_darker</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+    </style>
+
+    <style name="MySubTitleTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowColor">@color/shopgun_green_darker</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:titleTextStyle">@style/MyTitleTextStyle</item>
+        <item name="android:subtitleTextStyle">@style/MySubTitleTextStyle</item>
+        <item name="android:indeterminateProgressStyle">@android:style/Widget.ProgressBar.Small</item>
+    </style>
+
+    <style name="IndeterminateProgress" parent="@android:style/Widget.ProgressBar">
+
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="myAppTheme" parent="AppTheme">
+
+        <!-- If you want to implement your custom style of CirclePageIndicator, do it like so: -->
+
+        <!-- Put whatever other styles you want to define in your custom theme -->
+    </style>
+
+
+    <style name="myTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/shopgun_green</item>
+        <item name="android:divider">@drawable/drawer_shadow</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:minLines">2</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+    </style>
+
+    <style name="myTitlePageIndicator" parent="Widget">
+        <item name="selectedColor">@android:color/white</item>
+        <item name="android:textColor">@color/shopgun_gray_lighter</item>
+        <item name="android:background">@color/shopgun_green_transparent</item>
+        <item name="android:shadowColor">@android:color/holo_green_dark</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="linePosition">top</item>
+        <item name="showOnlyPartOfInactiveTitles">true</item>
+        <item name="footerColor">@color/shopgun_gray</item>
+        <item name="footerIndicatorStyle">triangle</item>
+    </style>
+
+    <style name="myCirclePageIndicator" parent="Widget">
+        <item name="fillColor">@android:color/darker_gray</item>
+        <item name="strokeColor">@android:color/black</item>
+        <!--<item name="strokeWidth">1dp</item>-->
+        <!--<item name="pageColor">#e7e8</item>-->
+        <item name="radius">10dp</item>
+    </style>
+
+    <style name="BackgroundPlate">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/background_plate</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="BackgroundPlate.NoBottomLine">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="BackgroundPlate.Clickable">
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/background_plate_clickable</item>
+    </style>
+
+    <style name="BackgroundPlate.Clickable.Info">
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:drawableLeft">@drawable/ic_info_blue</item>
+        <item name="android:drawableRight">@drawable/ic_arrow_right</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/shopgun_blue_darker</item>
+    </style>
+
+    <style name="BackgroundPlate.Logotype">
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/shopgun_green_darker</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="BackgroundPlate.TextField">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="headerField">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/shopgun_green</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8dp</item>
+        <!--<item name="android:shadowColor">@color/shopgun_green_darker</item>-->
+        <!--<item name="android:shadowRadius">0.5</item>-->
+        <!--<item name="android:shadowDx">0.5</item>-->
+        <!--<item name="android:shadowDy">0.5</item>-->
+        <item name="android:background">@drawable/header_background</item>
+    </style>
+
+    <style name="BackgroundPlate.InfoText" parent="BackgroundPlate">
+        <item name="android:textColor">@color/shopgun_green_darker</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">64dp</item>
+    </style>
+
+    <style name="InfoText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/shopgun_green_darker</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">64dp</item>
+    </style>
+
+    <style name="semaphoreIndicator">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <!--<item name="android:layout_marginTop">1dp</item>-->
+        <!--<item name="android:layout_marginBottom">1dp</item>-->
+    </style>
+
+    <style name="barcodeBackgroundGray">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/shopgun_gray_lighter</item>
+        <item name="android:src">@drawable/bg_ean_overlay</item>
+    </style>
+
+    <style name="TextButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:clickable">true</item>
+        <item name="android:drawableRight">@drawable/ic_arrow_right</item>
+    </style>
+
+    <style name="TextButton.LighterBlue">
+        <item name="android:textColor">@color/shopgun_blue_lighter</item>
+    </style>
+
+    <style name="TextButton.DarkerBlue">
+        <item name="android:textColor">@color/shopgun_blue_darker</item>
+    </style>
+
+    <style name="TextButton.WithBottomLine">
+        <item name="android:background">@drawable/selector_button_with_bottom_line</item>
+    </style>
+
+
+    <style name="TextButton.WithBottomLine.LighterBlue">
+        <item name="android:textColor">@color/shopgun_blue_lighter</item>
+    </style>
+
+    <style name="TextButton.WithBottomLine.DarkerBlue">
+        <item name="android:textColor">@color/shopgun_blue_darker</item>
+    </style>
+
+
+    <style name="horizontalDelimiter">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/shopgun_gray_lighter</item>
+    </style>
+
+    <style name="horizontalDelimiter.Green">
+        <item name="android:background">@color/shopgun_green</item>
+    </style>
+
+
+    <style name="horizontalDelimiter.Yellow">
+        <item name="android:background">@color/shopgun_yellow_darker</item>
+    </style>
+
+    <style name="horizontalDelimiter.Red">
+        <item name="android:background">@color/shopgun_red</item>
+    </style>
+
+    <style name="listItemDelimiter">
+        <item name="android:src">@drawable/delimiter</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="verticalDelimiter">
+        <item name="android:src">@drawable/delimiter</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+
+    <style name="adviceTag">
+        <item name="android:layout_width">52dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/shopgun_green</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="textField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="textOnWhiteBackground">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+
+
+    <style name="bottomSpacing">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="onShowAdvices"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:background="@drawable/selector_button"
+    >
+
+    <TextView
+        android:id="@+id/header"
+        android:text="@string/circle_diagram_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/shopgun_green_darker"
+        />
+
+    <consumentor.shopgun.aidroid.customview.CircleDiagram
+        android:contentDescription="@string/show_advices"
+        android:id="@+id/circleDiagram"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:layout_below="@+id/header"/>
+
+</LinearLayout>

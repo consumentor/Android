@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/overview_header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_plate"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cbEthics"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_ethic_gray_small"
+                android:button="@drawable/selector_checkbox"
+                android:singleLine="false"
+                android:checked="true" />
+
+            <CheckBox
+                android:id="@+id/cbHealth"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_health_gray_small"
+                android:button="@drawable/selector_checkbox"
+                android:checked="true" />
+
+            <CheckBox
+                android:id="@+id/cbEnvironment"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_environment_gray_small"
+                android:button="@drawable/selector_checkbox"
+                android:checked="true" />
+
+            <CheckBox
+                android:id="@+id/cbDidYouKnow"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:button="@drawable/selector_checkbox"
+                android:drawableLeft="@drawable/ic_info_gray_small"
+                android:checked="true" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="8dp"
+            style="@style/horizontalDelimiter"/>
+
+        <TextView
+            android:id="@+id/noAdvices"
+            android:text="@string/no_advices"
+            style="@style/InfoText"/>
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:divider="@null"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="40dp"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+<!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/layout/fragment_advice_list.xml -->

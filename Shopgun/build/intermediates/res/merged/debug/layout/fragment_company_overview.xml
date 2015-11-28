@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/overview_header" />
+
+        <FrameLayout
+            android:id="@+id/topWeightedAdvicesFragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            style="@style/BackgroundPlate"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/more_about"
+                style="@style/header" />
+
+            <TextView
+                android:id="@+id/ifCompanyMemberInfo"
+                android:text="@string/company_member_info"
+                android:drawableLeft="@drawable/ic_company"
+                android:onClick="onCompanyInfoButtonPressed"
+                style="@style/TextButton.WithBottomLine.DarkerBlue" />
+
+            <TextView
+                android:id="@+id/csrButton"
+                android:onClick="onShowCSR"
+                android:text="@string/csr_header"
+                android:drawableLeft="@drawable/ic_info_blue"
+                style="@style/TextButton.WithBottomLine.DarkerBlue" />
+
+            <TextView
+                android:text="@string/title_company_brands"
+                android:onClick="onShowCompanyBrands"
+                style="@style/TextButton.WithBottomLine.LighterBlue"
+                android:drawableLeft="@drawable/ic_brand" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/bottomSpacing" />
+
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/layout/fragment_company_overview.xml -->

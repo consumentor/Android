@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	 >
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:src="@drawable/list_item_shadow"
+		android:layout_alignParentTop="true" />
+	<ImageView
+		android:id="@+id/advisorLogo"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_alignParentLeft="true"
+		android:padding="2dp" />
+
+    <TextView
+        android:id="@+id/tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tag_background"
+        android:textSize="12sp"
+        android:textColor="#eee"
+        android:shadowColor="#333"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:padding="3dp"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true" />
+
+	<TextView
+		android:id="@+id/advisorName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/advisorLogo"
+		android:layout_toLeftOf="@id/tag"
+		android:layout_alignTop="@id/advisorLogo"
+		android:textSize="20dp"
+		android:textColor="@color/shopgun_green_darker"
+		android:typeface="serif"
+		android:singleLine="true"
+		android:shadowColor="@color/shopgun_gray_lighter"
+		android:shadowDy="2.0"
+		android:shadowRadius="1.0" />
+	<TextView
+		android:id="@+id/adviceAbstract"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_toRightOf="@id/advisorLogo"
+		android:layout_toLeftOf="@id/tag"
+		android:layout_below="@id/advisorName"
+		android:singleLine="true"
+		android:ellipsize="marquee"
+		android:textColor="#666" />
+
+</RelativeLayout><!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/layout/advice_list_item.xml -->

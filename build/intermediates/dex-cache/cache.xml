@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/pre-dexed/debug/classes-7c521bfa3c75acb38d9de8cc10872345067cb5b5.jar" />
+    </item>
+    <item
+        jar="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-f0505238b32791e997646e722b45bb63e2c68354.jar" />
+    </item>
+    <item
+        jar="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/libs/apache-httpcomponents-httpclient.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="13d1b1d8f318f5b0f95bc2901f378ef68982584f">
+        <dex dex="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/pre-dexed/debug/apache-httpcomponents-httpclient-e7d1ef32414655d5aae08bc3e94351301e5456d0.jar" />
+    </item>
+    <item
+        jar="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/viewpagerindicator/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="eebd535b941b9a522aeaa2b92cb4ce85d8d9da80">
+        <dex dex="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/pre-dexed/debug/classes-9efb45c5a398e4d4b813627111e7272b5a01dfe8.jar" />
+    </item>
+    <item
+        jar="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/facebook/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="7996a44b7ae0d5bd98067503a7d230fa4c3e70ff">
+        <dex dex="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/pre-dexed/debug/classes-73a0ab5908679bd12c5ee10dce918b9c3c8f4b7f.jar" />
+    </item>
+    <item
+        jar="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/libs/apache-httpcomponents-httpcore.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="33fc26c02f8043ab0ede19eadc8c9885386b255c">
+        <dex dex="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/pre-dexed/debug/apache-httpcomponents-httpcore-d6a5ad1ac1fd0e01ca8fdc2ecfbb1fb41a8ec30a.jar" />
+    </item>
+    <item
+        jar="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/libs/apache-httpcomponents-httpmime.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f6b9ce4485869cc314171c554a436e6121783fbe">
+        <dex dex="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/pre-dexed/debug/apache-httpcomponents-httpmime-828e5bafb3b9d3f24933802ee1de19664819c89d.jar" />
+    </item>
+    <item
+        jar="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/libs/libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e887c6c9b31b39a39b0eaba981448b78902ea813">
+        <dex dex="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/pre-dexed/debug/libGoogleAnalyticsServices-3d6526502f4f7a2f31aab5964fa798d71ae7a0c5.jar" />
+    </item>
+    <item
+        jar="/Users/Simon/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.8.6/9995ba681982ca129af798c9eb21e79c4bffa45/universal-image-loader-1.8.6.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="09995ba681982ca129af798c9eb21e79c4bffa45">
+        <dex dex="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/pre-dexed/debug/universal-image-loader-1.8.6-9a78fe548ffadb942b29f608a013a9df8c756240.jar" />
+    </item>
+    <item
+        jar="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/libs/scanditsdk-barcodepicker-android-3.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="bc2f52b9715c264d9837ef5904a25d766e14f0f2">
+        <dex dex="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/pre-dexed/debug/scanditsdk-barcodepicker-android-3.4.0-b87d12525ac51f06110ddc6c89a9384a4cba2fd9.jar" />
+    </item>
+    <item
+        jar="/Users/Simon/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-005bae4dedab44bf98c176e842a86b232c66e16f.jar" />
+    </item>
+    <item
+        jar="/Users/Simon/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/pre-dexed/debug/gson-2.2.4-d927dec90b1940db8cdb137bda127130d8028566.jar" />
+    </item>
+    <item
+        jar="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/pre-dexed/debug/classes-23422b9ed309570954097258641132e5a0b74978.jar" />
+    </item>
+
+</items>

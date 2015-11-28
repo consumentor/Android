@@ -1,0 +1,296 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:2:1-173:12
+	xmlns:android
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:3:5-47
+	android:versionName
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml
+		INJECTED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:6:5-45
+uses-sdk
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:8:5-10:41
+MERGED from [Android:facebook:unspecified] /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/facebook/unspecified/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:20.0.0] /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:16:5-42
+MERGED from [Android:viewpagerindicator:unspecified] /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/viewpagerindicator/unspecified/AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.gms:play-services:6.1.71] /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:20.0.0] /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:16:5-42
+	android:targetSdkVersion
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:10:9-38
+		INJECTED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml
+		INJECTED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:9:9-35
+		INJECTED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml
+		INJECTED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:13:22-62
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:14:5-70
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:14:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:15:5-73
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:15:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:16:22-77
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:17:5-73
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:17:22-71
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:18:22-76
+application
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:20:5-171:19
+MERGED from [Android:facebook:unspecified] /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/Android/facebook/unspecified/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:20.0.0] /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:17:5-19
+MERGED from [com.google.android.gms:play-services:6.1.71] /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:20.0.0] /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:17:5-19
+	android:label
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:24:9-41
+	android:debuggable
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:26:9-34
+	android:allowBackup
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:22:9-35
+	android:icon
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:23:9-45
+	android:theme
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:25:9-40
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:21:9-70
+activity#consumentor.shopgun.aidroid.view.MainActivity
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:27:9-37:20
+	android:screenOrientation
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:30:13-49
+	android:label
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:29:13-45
+	android:theme
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:31:13-46
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:28:13-73
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:35:27-74
+activity#consumentor.shopgun.aidroid.view.LoginActivity
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:38:9-43:20
+	android:windowSoftInputMode
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:42:13-68
+	android:screenOrientation
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:41:13-49
+	android:label
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:40:13-45
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:39:13-74
+activity#consumentor.shopgun.aidroid.view.ScanActivity
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:44:9-48:20
+	android:screenOrientation
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:46:13-49
+	android:theme
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:47:13-71
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:45:13-73
+activity#consumentor.shopgun.aidroid.view.AdviceActivity
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:49:9-61:20
+	android:screenOrientation
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:53:13-49
+	android:label
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:51:13-58
+	android:parentActivityName
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:52:13-87
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:50:13-75
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:54:13-60:29
+action#android.intent.action.VIEW
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:55:17-69
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:55:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:56:17-76
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:56:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:57:17-78
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:57:27-75
+data
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:58:17-107
+	android:host
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:58:45-74
+	android:pathPrefix
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:58:75-104
+	android:scheme
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:58:23-44
+activity#consumentor.shopgun.aidroid.view.AdvisorActivity
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:62:9-70:20
+	android:screenOrientation
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:66:13-49
+	android:label
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:64:13-59
+	android:parentActivityName
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:65:13-87
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:63:13-76
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:67:13-69:81
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:68:17-63
+	android:value
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:69:17-78
+activity#consumentor.shopgun.aidroid.view.ProductActivity
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:71:9-79:20
+	android:screenOrientation
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:74:13-49
+	android:theme
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:75:13-46
+	android:parentActivityName
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:73:13-87
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:72:13-76
+activity#consumentor.shopgun.aidroid.view.IngredientActivity
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:80:9-93:20
+	android:screenOrientation
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:84:13-49
+	android:label
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:82:13-62
+	android:theme
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:85:13-46
+	android:parentActivityName
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:83:13-87
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:81:13-79
+intent-filter#org.consumentor.shopgun.intent.action.INGREDIENT
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:90:13-92:29
+action#org.consumentor.shopgun.intent.action.INGREDIENT
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:91:17-91
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:91:25-88
+activity#consumentor.shopgun.aidroid.view.CompanyActivity
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:94:9-103:20
+	android:screenOrientation
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:98:13-49
+	android:label
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:96:13-59
+	android:theme
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:99:13-46
+	android:parentActivityName
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:97:13-87
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:95:13-76
+activity#consumentor.shopgun.aidroid.view.BrandActivity
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:104:9-113:20
+	android:screenOrientation
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:108:13-49
+	android:label
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:106:13-57
+	android:theme
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:109:13-46
+	android:parentActivityName
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:107:13-87
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:105:13-74
+activity#consumentor.shopgun.aidroid.view.SearchActivity
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:114:9-122:20
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:114:19-81
+intent-filter#android.intent.action.SEARCH
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:115:13-117:29
+action#android.intent.action.SEARCH
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:116:17-71
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:116:25-68
+meta-data#android.app.searchable
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:119:13-121:54
+	android:resource
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:121:17-51
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:120:17-54
+provider#consumentor.shopgun.aidroid.util.SuggestionContentProvider
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:124:9-127:40
+	android:exported
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:127:13-37
+	android:authorities
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:126:13-92
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:125:13-86
+meta-data#android.app.default_searchable
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:129:9-131:79
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:130:13-58
+	android:value
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:131:13-76
+meta-data#com.google.android.gms.version
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:133:9-122
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:133:20-65
+	android:value
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:133:66-119
+activity#consumentor.shopgun.aidroid.view.BatchScanActivity
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:135:9-143:20
+	android:screenOrientation
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:138:13-49
+	android:label
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:137:13-62
+	android:parentActivityName
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:139:13-87
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:136:13-78
+activity#consumentor.shopgun.aidroid.view.ProductComparisonActivity
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:144:9-152:20
+	android:screenOrientation
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:147:13-49
+	android:label
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:146:13-70
+	android:parentActivityName
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:148:13-87
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:145:13-86
+activity#consumentor.shopgun.aidroid.view.CertificationMarkActivity
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:153:9-161:20
+	android:screenOrientation
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:156:13-49
+	android:label
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:155:13-70
+	android:parentActivityName
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:157:13-87
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:154:13-86
+service#consumentor.shopgun.aidroid.authentication.ShopgunAuthenticationService
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:163:9-169:35
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:163:18-104
+intent-filter#android.accounts.AccountAuthenticator
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:164:13-166:29
+action#android.accounts.AccountAuthenticator
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:165:17-87
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:165:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:167:13-169:25
+	android:resource
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:167:77-114
+	android:name
+		ADDED from /Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/AndroidManifest.xml:167:24-76

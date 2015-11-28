@@ -1,0 +1,90 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BatchScanActivity">
+
+    <ImageView
+        style="@style/barcodeBackgroundGray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/scannerContainer"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <CheckedTextView
+            android:id="@+id/scanMultipleCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="44dp"
+            android:paddingRight="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/scan_multiple"
+            android:background="@android:color/white"
+            android:textColor="@color/shopgun_green"
+            android:gravity="center_vertical"
+            android:paddingLeft="32dp"
+            android:checkMark="@drawable/selector_checkbox"
+            />
+
+        <Button
+            android:id="@+id/gtinInputButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="44dp"
+            android:gravity="left|center"
+            android:background="@drawable/freetext_search_button_background"
+            android:textStyle="italic"
+            android:text="@string/action_search"
+            android:textColor="@color/shopgun_green_super_light"
+            android:paddingTop="10dp"
+            android:paddingLeft="32dp"
+            android:drawableLeft="@drawable/ic_search_symbol"
+            android:drawablePadding="8dp"
+            />
+
+        <Button
+            android:id="@+id/doneScanningButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="44dp"
+            android:paddingRight="16dp"
+            android:text="@string/compare_products"
+            android:visibility="visible"
+            android:layout_gravity="right"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:textColor="@color/shopgun_green"
+            android:background="@drawable/selector_button"/>
+
+        <FrameLayout
+            android:id="@+id/productListContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+</FrameLayout>
+<!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/layout/activity_batch_scan.xml -->

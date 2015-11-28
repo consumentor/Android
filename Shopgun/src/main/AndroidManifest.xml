@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="consumentor.shopgun.aidroid.view"
+    android:versionCode="27"
+    android:versionName="2.0"
+    android:installLocation="preferExternal">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="consumentor.shopgun.aidroid.ShopgunApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:debuggable="true">
+        <activity
+            android:name="consumentor.shopgun.aidroid.view.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="consumentor.shopgun.aidroid.view.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="consumentor.shopgun.aidroid.view.ScanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="consumentor.shopgun.aidroid.view.AdviceActivity"
+            android:label="@string/title_activity_advice"
+            android:parentActivityName="consumentor.shopgun.aidroid.view.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="www.shopgun.se" android:pathPrefix="/advices" />
+                <data android:scheme="http" android:host="shopgun.se" android:pathPrefix="/advices" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="consumentor.shopgun.aidroid.view.AdvisorActivity"
+            android:label="@string/title_activity_advisor"
+            android:parentActivityName="consumentor.shopgun.aidroid.view.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="consumentor.shopgun.aidroid.view.MainActivity" />
+        </activity>
+        <activity
+            android:name="consumentor.shopgun.aidroid.view.ProductActivity"
+            android:parentActivityName="consumentor.shopgun.aidroid.view.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="consumentor.shopgun.aidroid.view.MainActivity" />
+        </activity>
+        <activity
+            android:name="consumentor.shopgun.aidroid.view.IngredientActivity"
+            android:label="@string/title_activity_ingredient"
+            android:parentActivityName="consumentor.shopgun.aidroid.view.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="consumentor.shopgun.aidroid.view.MainActivity" />
+
+            <intent-filter>
+                <action android:name="org.consumentor.shopgun.intent.action.INGREDIENT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="consumentor.shopgun.aidroid.view.CompanyActivity"
+            android:label="@string/title_activity_company"
+            android:parentActivityName="consumentor.shopgun.aidroid.view.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="consumentor.shopgun.aidroid.view.MainActivity" />
+        </activity>
+        <activity
+            android:name="consumentor.shopgun.aidroid.view.BrandActivity"
+            android:label="@string/title_activity_brand"
+            android:parentActivityName="consumentor.shopgun.aidroid.view.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="consumentor.shopgun.aidroid.view.MainActivity" />
+        </activity>
+        <activity android:name="consumentor.shopgun.aidroid.view.SearchActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <provider
+            android:name="consumentor.shopgun.aidroid.util.SuggestionContentProvider"
+            android:authorities="consumentor.shopgun.aidroid.view.SearchSuggestionProvider"
+            android:exported="false" />
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value="consumentor.shopgun.aidroid.view.SearchActivity" />
+
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="consumentor.shopgun.aidroid.view.BatchScanActivity"
+            android:label="@string/title_activity_batch_scan"
+            android:screenOrientation="portrait"
+            android:parentActivityName="consumentor.shopgun.aidroid.view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="consumentor.shopgun.aidroid.view.MainActivity" />
+        </activity>
+        <activity
+            android:name="consumentor.shopgun.aidroid.view.ProductComparisonActivity"
+            android:label="@string/title_activity_product_comparison"
+            android:screenOrientation="portrait"
+            android:parentActivityName="consumentor.shopgun.aidroid.view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="consumentor.shopgun.aidroid.view.MainActivity" />
+        </activity>
+        <activity
+            android:name="consumentor.shopgun.aidroid.view.CertificationMarkActivity"
+            android:label="@string/title_activity_certification_mark"
+            android:screenOrientation="portrait"
+            android:parentActivityName="consumentor.shopgun.aidroid.view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="consumentor.shopgun.aidroid.view.MainActivity" />
+        </activity>
+
+        <service android:name="consumentor.shopgun.aidroid.authentication.ShopgunAuthenticationService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"></action>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator">
+
+            </meta-data></service>
+
+    </application>
+
+</manifest>

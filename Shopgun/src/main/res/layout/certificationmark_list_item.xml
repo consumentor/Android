@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/certificationMarkLogotype"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:text="Certification name"
+        android:id="@+id/certificationMarkName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textColor="@color/shopgun_green_darker"
+        android:textSize="18sp"
+        android:paddingLeft="8dp"
+        />
+
+    <ImageView
+        android:src="@drawable/ic_arrow_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

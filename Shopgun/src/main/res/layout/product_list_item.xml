@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:background="@drawable/selector_button">
+
+    <ImageView
+        android:id="@+id/productLogotype"
+        android:layout_width="64dp"
+        android:layout_height="64dp"/>
+
+
+    <ImageView
+        android:id="@+id/angleBracket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_arrow_right"
+        android:layout_alignParentRight="true"
+        android:paddingRight="8dp"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@id/productLogotype"
+        android:layout_toLeftOf="@id/angleBracket"
+        android:paddingLeft="8dp"
+        >
+
+        <consumentor.shopgun.aidroid.customview.ScrollingTextView
+            android:id="@+id/productName"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/brandName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:id="@+id/certificationMarkContainer"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

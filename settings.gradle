@@ -1,0 +1,3 @@
+include ':Shopgun'
+include ':facebook'
+include ':viewpagerindicator'

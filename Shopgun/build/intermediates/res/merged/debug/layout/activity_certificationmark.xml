@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CertificationMarkActivity"
+    android:gravity="center_horizontal"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/certificationMarkName"
+        android:textSize="28sp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        style="@style/BackgroundPlate.NoBottomLine"/>
+
+    <ImageView
+        android:id="@+id/certificationMarkLogo"
+        android:layout_height="100dp"
+        style="@style/BackgroundPlate.NoBottomLine"/>
+
+    <TextView
+        android:id="@+id/certificationMarkHomepage"
+        android:text="@string/certificationmark_homepage"
+        style="@style/BackgroundPlate.Clickable.Info"
+        />
+
+    <ScrollView
+        android:id="@+id/descriptionContainer"
+        style="@style/BackgroundPlate"
+        >
+
+        <TextView
+            android:id="@+id/certificationMarkDescription"
+            android:text="@string/certificationMark_description_missing"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"/>
+
+    </ScrollView>
+
+</LinearLayout>
+<!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/layout/activity_certificationmark.xml -->

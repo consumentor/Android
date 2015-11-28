@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   <LinearLayout
+        android:id="@+id/theButton"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/BackgroundPlate.Clickable">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+    
+            <consumentor.shopgun.aidroid.customview.ScrollingTextView
+                android:id="@+id/productName"
+                android:textStyle="italic"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:marqueeRepeatLimit="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/shopgun_green_darker"
+                android:text="Chunky guacamole"
+                android:textSize="18sp"
+    
+                />
+    
+            <consumentor.shopgun.aidroid.customview.ScrollingTextView
+                android:id="@+id/brandName"
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Old El Paso, 295 G"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:textColor="@color/shopgun_green_darker"/>
+
+            <TextView
+                android:id="@+id/productOrigin"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:textColor="@color/shopgun_green_darker"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/brandName"/>
+
+            <ImageView
+                style="@style/horizontalDelimiter.Green"/>
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@id/productImage">
+    
+                <ImageView
+                    android:id="@+id/productImage"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    />
+
+                <HorizontalScrollView
+                    android:duplicateParentState="true"
+                    android:id="@+id/certificationMarkScrollView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:requiresFadingEdge="horizontal"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:id="@+id/certificationMarkContainer"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom"/>
+
+                </HorizontalScrollView>
+
+                <TextView
+                    android:id="@+id/lacksCertificationInfo"
+                    android:text="@string/product_lacks_certifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    android:background="@drawable/ic_lacks_certification"/>
+    
+            </LinearLayout>
+    
+        </LinearLayout>
+    
+        <ImageView style="@style/verticalDelimiter"/>
+
+        <LinearLayout
+            android:id="@+id/circleDiagramContainer"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="@drawable/selector_button">
+
+            <TextView
+                android:text="@string/circle_diagram_header"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="@color/shopgun_green_darker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+    
+            <consumentor.shopgun.aidroid.customview.CircleDiagram
+                android:id="@+id/circleDiagram"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minWidth="96dp"
+                android:minHeight="96dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

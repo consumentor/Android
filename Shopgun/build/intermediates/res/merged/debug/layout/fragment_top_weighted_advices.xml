@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/BackgroundPlate">
+
+    <TextView
+        android:text="@string/top_advices_header"
+        style="@style/header"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="1dp"
+        android:id="@+id/advicesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout><!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/layout/fragment_top_weighted_advices.xml -->

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            style="@style/BackgroundPlate"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <consumentor.shopgun.aidroid.customview.ScrollingTextView
+                    android:id="@+id/productName"
+                    android:textStyle="italic"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:marqueeRepeatLimit="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/shopgun_green_darker"
+                    android:text="Chunky guacamole"
+                    android:textSize="18sp"
+                    />
+
+                <consumentor.shopgun.aidroid.customview.ScrollingTextView
+                    android:id="@+id/brandName"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Old El Paso, 295 G"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/shopgun_green_darker"/>
+
+                <ImageView
+                    style="@style/horizontalDelimiter.Green"/>
+
+                <ImageView
+                    android:id="@+id/productImage"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitCenter"
+                    android:padding="8dp"/>
+
+                </LinearLayout>
+
+            <ImageView
+                style="@style/verticalDelimiter"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/originInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="@string/product_origin_header"
+                        style="@style/header"/>
+
+                    <TextView
+                        android:id="@+id/productOrigin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:textColor="@color/shopgun_green_darker"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="8dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/certificationMarkInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="@string/product_certification_header"
+                        style="@style/header"/>
+
+                    <HorizontalScrollView
+                        android:duplicateParentState="true"
+                        android:id="@+id/certificationMarkScrollView"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:padding="2dp">
+
+                        <LinearLayout
+                            android:id="@+id/certificationMarkContainer"
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_gravity="bottom"
+                            android:gravity="bottom"/>
+
+                    </HorizontalScrollView>
+
+
+
+                    <TextView
+                        android:id="@+id/certifiedAlternativesButton"
+                        android:onClick="onShowCertifiedAlternatives"
+                        android:text="@string/product_lacks_certifications"
+                        android:background="@drawable/ic_lacks_certification"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ingredientInfo"
+            style="@style/BackgroundPlate"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/product_ingredients_header"
+                style="@style/header"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_ingredient"/>
+
+                <TextView
+                    android:id="@+id/productIngredients"
+                    style="@style/textField"
+                    android:textStyle="italic"
+                    android:text="@string/ingredient_info_missing"
+                    android:minHeight="48dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            style="@style/BackgroundPlate">
+            <TextView
+                android:text="@string/product_brand_header"
+                style="@style/header"/>
+            <LinearLayout
+                android:id="@+id/brandButton"
+                android:onClick="onStartBrandActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/selector_button">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_brand"/>
+
+                <TextView
+                    android:id="@+id/brandName"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Brand"
+                    android:textSize="18sp"
+                    android:textColor="@color/shopgun_blue_lighter"/>
+
+                <ImageView
+                    android:id="@+id/brandLogotype"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart"
+                    android:padding="16dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:src="@drawable/ic_arrow_right"/>
+
+            </LinearLayout>
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            style="@style/BackgroundPlate">
+
+            <TextView
+                android:text="@string/product_producer_header"
+                style="@style/header"/>
+
+            <LinearLayout
+                android:id="@+id/producerButton"
+                android:onClick="onStartCompanyActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/selector_button">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_company"/>
+
+                <TextView
+                    android:id="@+id/companyName"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Company"
+                    android:textSize="18sp"
+                    android:textColor="@color/shopgun_blue_darker"/>
+
+                <ImageView
+                    android:id="@+id/companyLogotype"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart"
+                    android:padding="16dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:src="@drawable/ic_arrow_right"/>
+
+            </LinearLayout>
+            </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/nutritionInfo"
+            style="@style/BackgroundPlate"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/product_nutrition_header"
+                style="@style/header"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_nutrition"/>
+
+                <TextView
+                    android:id="@+id/productNutrition"
+                    style="@style/textField"
+                    android:minHeight="48dp"
+                    />
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/bottomSpacing"/>
+
+    </LinearLayout>
+</ScrollView><!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/layout/fragment_product_facts.xml -->

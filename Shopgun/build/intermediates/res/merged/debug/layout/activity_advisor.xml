@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdvisorActivity"
+    android:orientation="vertical"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/advisorName"
+        android:text="Advisor"
+        android:textSize="28sp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        style="@style/BackgroundPlate.NoBottomLine"
+        />
+
+    <ImageView
+        android:id="@+id/advisorLogo"
+        android:layout_height="100dp"
+        style="@style/BackgroundPlate.NoBottomLine"
+        />
+
+    <TextView
+        android:id="@+id/advisorHomepage"
+        android:text="@string/advisors_homepage"
+        style="@style/BackgroundPlate.Clickable.Info"/>
+
+    <ScrollView
+        android:id="@+id/descriptionContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/BackgroundPlate"
+        >
+
+        <TextView
+            android:id="@+id/advisorDescription"
+            android:text="@string/advisor_description_missing"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"/>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
+<!-- From: file:/Users/Simon/Consumentor/Development/GitHub/OpenSource/Android/Shopgun/src/main/res/layout/activity_advisor.xml -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="https://schemas.android.com/tools"
+    tools:ignore="TypographyDashes">
+
+    <string name="ga_trackingId">UA-37059414-1</string>
+    <string name="ga_appName">Shopgun Android 2.0</string>
+
+    <integer name="ga_dispatchPeriod">10</integer>
+
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <bool name ="ga_debug">true</bool>
+
+    <!-- The screen names that will appear in reports -->
+    <string name="consumentor.shopgun.aidroid.view.MainActivity">Home</string>
+    <string name="consumentor.shopgun.aidroid.view.BrandActivity">BrandActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.CompanyActivity">CompanyActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.IngredientActivity">IngredientActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.ProductActivity">ProductActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.CertificationMarkActivity">CertificationMarkActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.AdviceActivity">AdviceActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.AdvisorActivity">AdvisorActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.BatchScanActivity">BatchScanActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.LoginActivity">LoginActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.ProductComparisonActivity">ProductComparisonActivity</string>
+    <string name="consumentor.shopgun.aidroid.view.ScanActivity">ScanActivity</string>
+
+</resources>

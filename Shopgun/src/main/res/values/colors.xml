@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shopgun_green_super_light">#D0EEC1</color>
+    <color name="shopgun_green_lightest">#A2DD83</color>
+    <color name="shopgun_green_lighter">#8DDD63</color>
+    <color name="shopgun_green">#61BA31</color>
+    <color name="shopgun_green_transparent">#dd61BA31</color>
+    <color name="shopgun_green_darker">#357910</color>
+
+
+    <color name="shopgun_red_lightest">#E2879A</color>
+    <color name="shopgun_red_lighter">#E26580</color>
+    <color name="shopgun_red">#C63453</color>
+    <color name="shopgun_red_darker">#811129</color>
+
+    <color name="shopgun_yellow_lightest">#FFF5AE</color>
+    <color name="shopgun_yellow_lighter">#FFEE78</color>
+    <color name="shopgun_yellow">#FFDE00</color>
+    <color name="shopgun_yellow_darker">#DFB801</color>
+
+    <color name="shopgun_blue_lightest">#78A9C3</color>
+    <color name="shopgun_blue_lighter">#5DA0C3</color>
+    <color name="shopgun_blue">#296788</color>
+    <color name="shopgun_blue_darker">#0B3D57</color>
+
+    <color name="shopgun_gray_lighter">#CCCCCC</color>
+    <color name="shopgun_gray">#999999</color>
+    <color name="shopgun_gray_darker">#666666</color>
+</resources>
